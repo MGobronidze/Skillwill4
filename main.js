@@ -9,7 +9,7 @@ const replaceFunct = (value, valueToReplace, valueToReplaceWith) =>{
         result = arr.join("");
         return `result = ${result}`;
     }
-    return "Value doesn't includes given string"
+    return "Value doesn't include given string"
 }
 // test
 console.log(replaceFunct("Hello", "T", "World"));
